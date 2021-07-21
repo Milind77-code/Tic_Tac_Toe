@@ -10,6 +10,7 @@ namespace TicTacToe
             Console.WriteLine("---------------------------------------------");
             TicTacToeGame ticTacToeGame = new TicTacToeGame();
             ticTacToeGame.GameBoard();
+            ticTacToeGame.ChooseXorO();
         }
     }
 }

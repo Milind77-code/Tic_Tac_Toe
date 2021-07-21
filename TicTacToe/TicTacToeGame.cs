@@ -11,9 +11,15 @@ namespace TicTacToe
 
             for (int i = 0; i < board.Length; i++)
             {
-                board[i] = '_';
+                board[i] = ' ';
                 Console.WriteLine(board[i]);
             }
+        }
+        public void ChooseXorO()
+        {
+            Console.Write("Enter X or O : ");
+            char UserChoice = Convert.ToChar(Console.ReadLine());
+            Console.WriteLine(char.ToUpper(UserChoice));
         }
     }
 }
